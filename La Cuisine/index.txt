@@ -1,0 +1,91 @@
+La Cordon Bleu- Cuisine Classique et délicieuse
+
+This is a resturant html made by SimphiweMathosa
+
+ <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+
+<!---Topbar--->
+<ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+Restaurant St, Delicious City, Pretoria 1506, SA
+
+<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+Open: 10.00 am - 12.00 pm
+
+<ion-icon name="call-outline" aria-hidden="true"></ion-icon>
++27 00 000 0000
+
+<ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+booking@lacordonbleu.com
+
+
+    
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+
+     <!-- ionicon link-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+     /**
+ *COLORS
+ */
+
+ --gold-crayola: hsl(38, 61%, 73%);
+ --quick-silver: hsla(0, 0%, 65%, 1);
+ --davys-gray: hsla(30, 3%, 34%, 1);
+ --smoky-black-1:hsla(40, 12%, 5%, 1);
+ --smoky-black-2:hsla(30, 8%, 5%, 1);
+ --smoky-black-3:hsla(0, 3%, 7%, 1);
+ --eerie-black-1:hsla(210, 4%, 9%, 1);
+ --eerie-black-2:hsla(210, 4%, 11%, 1);
+ --eerie-black-3:hsla(180, 2%, 8%, 1);
+ --eerie-black-4:hsla(0, 0%, 13%, 1);
+ --white:hsla(0, 0%, 100%, 1);
+ --white-alpha:hsla(0, 0%, 100%, 0.2);
+ --white-alpha:hsla(0, 0%, 100%, 0.1);
+--black: hsla(0, 0%, 0%, 1);
+--black-alpha-80: hsla(0, 0%, 0%, 0.8);
+--black-alpha-15:hsla(0, 0%, 0%, 0.15);
+
+
+
+
+
+
+
+fonts
+ --fontSize-display-1: calc(1.3rem + 6.7vw);
+ --fontSize-headline-1: calc(2rem + 2.5vw);
+ --fontSize-headline-2: calc(1.3rem + 2.4vw);
+ --fontSize-title-1: calc(1.6rem + 1.2vw);
+ --fontSize-title-2: 2.2rem;
+ --fontSize-title-3: 2.1rem;
+ --fontSize-title-4: calc(1.6rem+ 1.2vw);
+ --fontSize-body-1: 2.4rem;
+ --fontSize-body-2: 1.6rem;
+ --fontSize-body-3: 1.8rem;
+ --fontSize-body-4: 1.6rem;
+ --fontSize-label-1: 1.4rem;
+ --fontSize-label-2: 1.2rem;
+
+
+ --weight-regular: 400;
+ --weight-bold: 700;
+
+ --lineHeight-1: 1em;
+ --lineHeight-2: 1.2em;
+ --lineHeight-3: 1.5em;
+ --lineHeight-4: 1.6em;
+ --lineHeight-5: 1.85em;
+ --lineHeight-6: 1.4em;
+
+  --letterSpacing-1: 0.15em;
+ --letterSpacing-2:0.4em;
+ --letterSpacing-3: 0.2em;
+ --letterSpacing-4: 0.3em;
+ --letterSpacing-5: 3px;

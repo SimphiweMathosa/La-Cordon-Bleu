@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- primary meta tags -->
+    <title>La Cordon Bleu- Cuisine Classique et délicieuse</title>
+    <meta name="title" content="La Cordon Bleu- Cuisine Classique et délicieuse">
+    <meta name="description" content="This is a resturant html made by SimphiweMathosa">
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+    
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- custom css link-->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- preload images-->
+    <link rel="preload" href="./assets/images/hero-slide-1.jpeg">
+    <link rel="preload" href="./assets/images/hero-slide-2.jpeg">
+    <link rel="preload" href="./assets/images/hero-slide-3.jpeg">
+
+</head>
+<body>
+  
+<!-- #Preloader-->
+<div class="preload " data-preload>
+    <div class="circle"></div>
+    <p class="text">La Cordon Bleu</p>
+</div>
+
+
+
+<!-- #Top-bar Section-->
+<div class="topbar">
+    <div class="container">
+
+        <address class="topbar-item">
+            <div class="icon">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+           <span class="span">
+            Restaurant St, Delicious City, Pretoria 1506, SA
+           </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+            <div class="icon">
+                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span">
+                Daily : 14.00 pm to 22.00 pm
+            </span>
+        </div>
+
+        <a href="tel: +27 000000000" class="topbar-item">
+            <div class="icon">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <span class="span">
+                +27 00 000 0000
+            </span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto: +27 000000000" class="topbar-item">
+            <div class="icon">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <span class="span">
+                booking@resturant.com
+            </span>
+        </a>
+    </div>
+</div>
+
+
+
+<!-- #Header Section-->
+<header class="header" data-header>
+    <div class="container">
+
+        <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="260" height="30" alt="La Cordon Bleu-Home">
+        </a>
+
+
+        <nav class="navbar" data-navbar>
+            <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="260" height="30" alt="La Cordon Bleu-Home">
+            </a>
+
+            <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-link hover-underline active">
+                        <div class="separator"></div>
+
+
+                        <span class="span">Home</span>
+                    </a>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="#menus" class="navbar-link hover-underline ">
+                        <div class="separator"></div>
+
+
+                        <span class="span">Menus</span>
+                    </a>
+                </li>
+
+
+                <li class="navbar-item">
+                    <a href="#aboutus" class="navbar-link hover-underline">
+                        <div class="separator"></div>
+
+                        <span class="span">About Us</span>
+                    </a>
+                </li>
+
+
+                <li class="navbar-item">
+                    <a href="#ourchefs" class="navbar-link hover-underline ">
+                        <div class="separator"></div>
+
+                        <span class="span">Our Chefs</span>
+                    </a>
+                </li>
+
+
+                <li class="navbar-item">
+                    <a href="#contact" class="navbar-link hover-underline">
+                        <div class="separator"></div>
+
+
+                        <span class="span">Contact Us</span>
+                    </a>
+                </li>
+
+
+            </ul>
+
+            <div class="text-center">
+                <p class="headline-1 navbar-title">Visit Us </p>
+
+                <address class="body-4">
+                    Restaurant St, Delicious City, <br>
+                     Pretoria 1506, SA
+                </address>
+
+                <p class="body-4 navbar-text">Open: 14.00 pm - 22.00 pm</p>
+
+                <a href="mailto:booking@lacordonbleu.com" class="body-4 sidebar-link"> booking@lacordonbleu.com</a>
+
+                <div class="separator"></div>
+
+                <p class="contact-label">
+                    Booking Request
+                </p>
+
+                <a href="tel:+27972345678" class="body-1 contact-number hover-underline"> +27-972-345678</a>
+            </div>
+        </nav>
+
+
+        <a href="#" class="btn btn-secondary">
+            <span class="text text-1">Find A Table</span>
+
+            <span class="text text-2" aria-hidden="true">Find A Table</span>
+        </a>
+
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+
+
+</header>
+
+
+
+<main>
+    <article>
+
+        <!--- #Hero Section-->
+        <section class="hero text-center" aria-label="home" id="home">
+            <ul class="hero-slider" data-hero-slider>
+
+                <li class="slider-item active" data-hero-slider-item>
+
+                    <div class="slider-bg">
+                        <img src="./assets/images/hero-slide-1.jpeg" width="1980" height="950" alt="" class="img-cover">
+                    </div>
+
+                    <p class="label-2 section-subtitle slider-reveal">Traditional & Healthy</p>
+                
+                    <h1 class="display-1 hero-title slider-reveal" style="font-size: xx-large;">
+                       For the love of  <br>
+                        exquistie food
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        Come with friends and family to enjoy mouthwatering food
+                    </p>
+
+                    <a href="" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">View Our Menu</span>
+                        <span class="text text-2" aria-hidden="true"> View Our Menu</span>
+                    </a>
+
+                </li>
+
+                <li class="slider-item " data-hero-slider-item>
+
+                    <div class="slider-bg">
+                        <img src="./assets/images/hero-slide-2.jpeg" width="1980" height="950" alt="" class="img-cover">
+                    </div>
+
+                    <p class="label-2 section-subtitle slider-reveal">Expérience Délicieuse</p>
+                
+                    <h1 class="display-1 hero-title slider-reveal" style="font-size: xx-large;">
+                        Des Saveurs Inspirées <br>
+                        des Saisons
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        Un endroit oú la famille peut déguster de plats appétissants
+                    </p>
+
+                    <a href="" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">View Our Menu</span>
+                        <span class="text text-2" aria-hidden="true"> View Our Menu</span>
+                    </a>
+
+                </li>
+
+
+                <li class="slider-item " data-hero-slider-item>
+
+                    <div class="slider-bg">
+                        <img src="./assets/images/hero-slide-3.jpeg" width="1980" height="950" alt="" class="img-cover">
+                    </div>
+
+                    <p class="label-2 section-subtitle slider-reveal">Amazing and delicious</p>
+                
+                    <h1 class="display-1 hero-title slider-reveal" style="font-size: xx-large;">
+                        Where every flavour <br>
+                        tells a story
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        Un endroit oú la famille peut déguster de plats appétissants
+                    </p>
+
+                    <a href="" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">View Our Menu</span>
+                        <span class="text text-2" aria-hidden="true"> View Our Menu</span>
+                    </a>
+
+                </li>
+
+
+            </ul>
+
+
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+
+
+
+            <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+
+            <a href="#" class="hero-btn has-after">
+                <img src="./assets/images/hero-icon.png" width="48" height="48" alt="">
+
+                <span class="label-2 text-center span">Book A Table</span>
+            </a>
+    
+
+            
+            
+
+        </section>
+
+
+
+
+<!--- # Service Section-->
+
+    <section class="section servive bg-black-10 text-center" aria-label="service">
+    <div class="container">
+
+        <p class="section-subtitle label-2">Flavours for Royalty</p>
+
+            <div class="h3 headline-1 section-title">We Offer Top Notch</div>
+
+            <p class="section-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aspernatur, voluptate corporis labore corrupti earum officia quisquam laborum, odio dolorem excepturi consectetur optio quaerat autem qui laboriosam esse, et magni.
+            </p>
+
+            <ul class="grid-list">
+
+                <li>
+                    <div class="service-card">
+
+                        <a href="#" class="has-before hover:shine">
+                            <figure class="card-banner img-holder" style="--width:285 ; --height:336 ;">
+                                <img src="./assets/images/service-1.jpeg" width="285" height="336" loading="lazy" alt="Appetizer" class="img-cover">
+                            </figure>
+                        </a>
+
+                        <div class="card-content">
+
+                            <h3 class="title-4 card-title">
+                                <a href="#">Appetizer</a>
+                            </h3>
+
+                          <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+
+
+                        </div>
+
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="service-card">
+
+                        <a href="#" class="has-before hover:shine">
+                            <figure class="card-banner img-holder" style="--width:285 ; --height:336 ;">
+                                <img src="./assets/images/service-2.jpeg" width="285" height="336" loading="lazy" alt="Dessert" class="img-cover">
+                            </figure>
+                        </a>
+
+                        <div class="card-content">
+
+                            <h3 class="title-4 card-title">
+                                <a href="#">Dessert</a>
+                            </h3>
+
+                          <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+
+
+                        </div>
+
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="service-card">
+
+                        <a href="#" class="has-before hover:shine">
+                            <figure class="card-banner img-holder" style="--width:285 ; --height:336 ;">
+                                <img src="./assets/images/service-3.jpeg" width="285" height="336" loading="lazy" alt="Drinks" class="img-cover">
+                            </figure>
+                        </a>
+
+                        <div class="card-content">
+
+                            <h3 class="title-4 card-title">
+                                <a href="#">Drinks</a>
+                            </h3>
+
+                          <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+
+
+                        </div>
+
+
+                    </div>
+                </li>
+
+            </ul>
+
+
+            <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape" class="shape shape-1 move-anim">
+
+            <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+
+
+    </div>
+</section>
+
+
+
+<!--- #About-->
+
+<section class="section about text-center" aria-labelledby="about-label" id="about">
+    <div class="container">
+
+        <div class="about-content">
+
+          <p class="label-2 section-subtitle" id="about-label">Our Story</p>  
+
+            <h2 class="headline-1 section-title">Every Flavour Tells A Story</h2>
+
+            <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, possimus. Similique maxime inventore harum, reiciendis iste sint, corrupti quo labore atque quibusdam eligendi cumque et neque veritatis, ullam sed! Sunt!</p>
+
+            <div class="contact-label">Call to Book</div>
+
+            <a href="tel:" class="body-1 contact-number hover-underline">+(27) 947 324 8564</a>
+
+            <a href="#" class="btn btn-primary">
+            <span class="text text-1">Read More</span>
+
+            <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+        </div>
+
+        <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpeg" width="570" height="570" loading="lazy" alt="about banner" class="w-100" data-parallax-item data-parallax-speed="1">
+
+              <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+                <img src="./assets/images/about-abs-img.jpeg" width="285" height="285" loading="lazy" alt="" class="w-100">
+              </div>  
+
+              <div class="abs-img abs-img-2 has-before">
+                <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="" class="">
+              </div>
+
+              <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+
+        </figure>
+
+
+    </div>
+</section>
+
+
+
+<!---#Special dish-->
+
+<section class="special-dish text-center" aria-labelledby="dish-label">
+
+    <div class="special-dish-banner">
+        <img src="./assets/images/special-dish-banner.jpeg" width="940" height="900" loading="lazy" alt="special-dish" class="img-cover">
+    </div>
+
+    <div class="special-dish-content bg-black-10">
+        <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Special Dish</p>
+
+            <h2 class="headline-1 section-title">Tarte Citron</h2>
+
+            <p class="section-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur commodi vitae ex corporis. Sequi, sed quia eius voluptatem repellendus quidem temporibus libero voluptatibus vitae quos hic assumenda cum velit.
+            </p>
+
+            <div class="wrapper">
+                <del class="del body-3">R730</del>
+
+                <span class="span body-1">R620</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+                <span class="text text-1">View All Menu</span>
+
+                <span class="text text-2" aria-hidden="true">View All Menu</span>
+            </a>
+        </div>
+    </div>
+
+    <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="shape shape-1">
+
+    <img src="./assets/images/shape-9.png" width="179" height="359" loading="lazy" alt="shape shape-2">
+</section>
+
+
+
+<!---#Menu-->
+
+<section class="section menu" aria-label="menu-label" id="menu">
+<div class="container">
+
+    <p class="section-subtitle text-center label-2">Special Selection</p>
+
+    <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+
+    <ul class="grid-list">
+
+        <li>
+            <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100 ; --height: 100 ;">
+                   <img src="./assets/images/menu-1.jpeg" width="100" height="100" loading="lazy" alt="Pumpkin Rissoto" class="img-cover"> 
+                </figure>
+
+                <div>
+
+                    <div class="title-wrapper">
+                        <h3 class="title-3">
+                            <a href="#" class="card-title">Pumpkin Rissoto</a>
+                        </h3>
+
+                        <span class="badge label-1">Seasonal</span>
+
+                        <span class="span title-2">R250</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                        Butternut Squash, Bacon Bits, White Wine, Cream and Balsamic Vinegar.
+                    </p>
+
+                </div>
+
+            </div>
+        </li>
+
+
+        <li>
+            <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100 ; --height: 100 ;">
+                   <img src="./assets/images/menu-2.jpeg" width="100" height="100" loading="lazy" alt="Grilled Salmon" class="img-cover"> 
+                </figure>
+
+                <div>
+
+                    <div class="title-wrapper">
+                        <h3 class="title-3">
+                            <a href="#" class="card-title">Grilled Salmon with Béarnaise Sauce </a>
+                        </h3>
+
+                        <span class="span title-2">R325</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                       Norwegian Salmon, Butter, Tarragon, White Wine, Lemon Juice
+                    </p>
+
+                </div>
+
+            </div>
+        </li>
+
+
+        <li>
+            <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100 ; --height: 100 ;">
+                   <img src="./assets/images/menu-3.jpeg" width="100" height="100" loading="lazy" alt="La Cordon Bleu Tiramisu" class="img-cover"> 
+                </figure>
+
+                <div>
+
+                    <div class="title-wrapper">
+                        <h3 class="title-3">
+                            <a href="#" class="card-title">La Cordon Bleu Tiramisu </a>
+                        </h3>
+
+
+                        <span class="span title-2">R475</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                       Savoiardi Lady Fingers, Mascarpone Cheese, Dark 75% Chocolate and Kahlua
+                    </p>
+
+                </div>
+
+            </div>
+        </li>
+
+
+        <li>
+            <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100 ; --height: 100 ;">
+                   <img src="./assets/images/menu-4.jpeg" width="100" height="100" loading="lazy" alt="Violet Crumble Gaytime Sundae" class="img-cover"> 
+                </figure>
+
+                <div>
+
+                    <div class="title-wrapper">
+                        <h3 class="title-3">
+                            <a href="#" class="card-title">Burnt Orange Crumble with Cardamom Ice Cream</a>
+                        </h3>
+
+                        <span class="badge label-1">New</span>
+
+                        <span class="span title-2">R345</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Orange, Burnt Caramel, Vanilla Biscuit, Orange Mousse and Cardamom Ice Cream
+                    </p>
+
+                </div>
+
+            </div>
+        </li>
+
+
+        <li>
+            <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100 ; --height: 100 ;">
+                   <img src="./assets/images/menu-5.jpeg" width="100" height="100" loading="lazy" alt="Spiced Honey Bourbon Old Fashioned" class="img-cover"> 
+                </figure>
+
+                <div>
+
+                    <div class="title-wrapper">
+                        <h3 class="title-3">
+                            <a href="#" class="card-title">Spiced Honey Bourbon Old Fashioned</a>
+                        </h3>
+
+                        <span class="span title-2">R195</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Orange, Rosemary, Spiced Honey Syrup, Cinnamon, Bourbon and Orange Bitters
+                    </p>
+
+                </div>
+
+            </div>
+        </li>
+
+
+        <li>
+            <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100 ; --height: 100 ;">
+                   <img src="./assets/images/menu-6.jpeg" width="100" height="100" loading="lazy" alt="Festive Ombré Blackberry Champagne" class="img-cover"> 
+                </figure>
+
+                <div>
+
+                    <div class="title-wrapper">
+                        <h3 class="title-3">
+                            <a href="#" class="card-title">Festive Ombré Blackberry Champagne</a>
+                        </h3>
+
+                        <span class="span title-2">R215</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Blackberries, Rosemary, Moet Champagne
+                    </p>
+
+                </div>
+
+            </div>
+        </li>
+
+    </ul>
+
+
+    <p class="menu-text text-center">
+        Open Mon - Sun from <span class="span">14:00 pm </span> to <span class="span">22:00 pm</span> 
+    </p>
+
+
+    <a href="#" class="btn btn-primary">
+        <span class="text text-1">View All Menu</span>
+
+        <span class="text text-2" aria-hidden="true">View All Menu</span>
+    </a>
+
+    <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape5" class="shape shape-2 move-anim">
+
+    <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape5" class="shape shape-3 move-anim">
+
+</div>
+</section>
+
+
+
+<!---#Testimonial-->
+
+<section class="section testi text-center has-bg-image" style="background-image: url(./assets/images/test-bg.jpeg) ;" aria-label="testimonials">
+    <div class="container">
+
+        <div class="quote">"</div>
+
+        <p class="headline-2 testi-text">
+            The resturant is an elegant fine dining resturant and the food was exquistie, haven't tasted anything like it. Thank you to the wonderful staff and chef.
+        </p>
+
+        <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+        </div>
+
+        <div class="profile">
+            <img src="./assets/images/testi-avatar.jpg" alt="Simphiwe Mathosa" width="100" height="100" loading="lazy" class="img">
+
+            <p class="label-2 profile-name">Simphiwe Mathosa</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!---#Reservation-->
+
+<section class="reservation">
+    <div class="container">
+
+        <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+                <h2 class="headline-1 text-center">Online Reservation</h2>
+
+                <p class="form-text text-center">
+                    Booking Request <a href="tel:+27659086545" class="link">+27659086545</a>
+                    or fill in the order form
+                </p>
+
+                    <div class="input-wrapper">
+                        <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                        <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                    </div>
+
+                    <div class="input-wrapper">
+
+                        <div class="icon-wrapper">
+                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                            <select name="person" class="input-field">
+                                <option value="1-person">1 person</option>
+                                <option value="2-person">2 person</option>
+                                <option value="3-person">3 person</option>
+                                <option value="4-person">4 person</option>
+                                <option value="5-person">5 person</option>
+                                <option value="6-person">6 person</option>
+                                <option value="7-person">7 person</option>
+                            </select>
+
+                            <ion-icon name="chevron-down-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+
+                        <div class="icon-wrapper">
+                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                            <input type="date" name="reservation-date" id="" class="input-field">
+                            </select>
+
+                            <ion-icon name="chevron-down-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div class="icon-wrapper">
+                            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                            <select name="person" class="input-field">
+                                <option value="14:00pm">14:00 pm</option>
+                                <option value="15:00pm">15:00 pm</option>
+                                <option value="16:00pm">16:00 pm</option>
+                                <option value="17:00pm">17:00 pm</option>
+                                <option value="18:00pm">18:00 pm</option>
+                                <option value="19:00pm">19:00 pm</option>
+                                <option value="20:00pm">20:00 pm</option>
+                                <option value="21:00pm">21:00 pm</option>
+                                <option value="22:00pm">22:00 pm</option>
+                             </select>
+
+                            <ion-icon name="chevron-down-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                    </div>
+
+                    <textarea name="message" placeholder="Message" autocomplete="off" class="input-field" ></textarea>
+
+                    <button type="submit" class="btn btn-secondary">
+                        <span class="text text-1">Book A Table</span>
+
+                        <span class="text text-2" aria-hidden="true">Book A Table</span>
+                    </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url(./assets/images/form-pattern.png);">
+
+                <h2 class="headline-1 text-center">Contact Us</h2>
+
+                <p class="contact-label">Booking Request</p>
+
+                <a href="tel:+27854562325" class="body-1 contact-number hover-underline">+27854562325</a>
+
+                <p class="contact-label">Location</p>
+
+                <address class="body-4">
+                    Resturant St, Delicious City, <br>
+                    Pretoria 0183, SA
+                </address>
+
+                <p class="contact-label">Lunch Time</p>
+
+                <p class="body-4">
+                    Monday to Sunday <br>
+                    14:00 pm - 15:00 pm
+                </p>
+
+                <p class="contact-label">Dinner Time</p>
+
+                <p class="body-4">
+                    Monday to Sunday <br>
+                    15:00 pm - 22:00 pm
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+</article>
+</main>
+
+
+
+    <!-- custom js link-->
+    <script src="./assets/script.js"></script>
+
+    <!-- ionicon link-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
